@@ -25,6 +25,6 @@ class AppController extends Controller
      * @Route("/", name="home")
      */
     public function homeAction(){
-        return $this->render('base.html.twig');
+        return $this->render('views/home.html.twig');
     }
 }
