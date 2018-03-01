@@ -15,11 +15,17 @@
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
             </p>
         </div>
-
+        <h2>Add Post</h2>
         <div class="row">
 
 
 
+           {{ form_start(form) }}
+            <div class="form-group">
+                <p>{{ form_widget(form) }}</p>
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+            {{ form_end(form) }}
 
         </div>
     </div>
